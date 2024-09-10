@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:amazon_ui/screens/buyagain.dart';
 import 'package:amazon_ui/screens/cart.dart';
 import 'package:amazon_ui/screens/keepshoppingfor.dart';
@@ -17,32 +18,36 @@ class _SampleState extends State<Sample> {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.lightBlue.shade300,
+          flexibleSpace: Container(
+            decoration: BoxDecoration(
+                gradient: LinearGradient(
+                    colors: [Colors.teal.shade200, Colors.lightBlue.shade700])),
+          ),
           toolbarHeight: 70,
           title: Row(
             children: [
               Container(
                 height: 40,
-                width: 410,
+                width: 350,
                 decoration: BoxDecoration(
                   border: Border.all(),
                   borderRadius: BorderRadius.circular(10),
-                  boxShadow: [
-                    const BoxShadow(color: Colors.grey, blurRadius: 10),
+                  boxShadow: const [
+                    BoxShadow(color: Colors.grey, blurRadius: 10),
                   ],
                   color: Colors.white,
                 ),
-                child: Row(
+                child: const Row(
                   children: [
                     Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: EdgeInsets.all(8.0),
                         child: Icon(Icons.search)),
                     Text(
                       'Search Amazon.in',
                       style: TextStyle(fontSize: 15),
                     ),
                     SizedBox(
-                      width: 150,
+                      width: 100,
                     ),
                     Icon(Icons.camera_alt_outlined),
                     SizedBox(
@@ -52,13 +57,13 @@ class _SampleState extends State<Sample> {
                   ],
                 ),
               ),
-              SizedBox(
-                width: 10,
-              ),
-              Icon(Icons.qr_code_scanner_outlined)
+              const Padding(
+                padding: EdgeInsets.only(left: 5.0),
+                child: Icon(Icons.qr_code_scanner_outlined),
+              )
             ],
           ),
-          bottom: TabBar(tabs: [
+          bottom: const TabBar(tabs: [
             Tab(
               text: 'Cart',
             ),
@@ -70,7 +75,7 @@ class _SampleState extends State<Sample> {
             )
           ]),
         ),
-        body: TabBarView(
+        body: const TabBarView(
           children: [Cart(), Buyagain(), Keepshoppingfor()],
         ),
       ),

@@ -10,8 +10,8 @@ class More extends StatefulWidget {
 class _MoreState extends State<More> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.red,
+    return const Scaffold(
+      backgroundColor: Colors.white,
     );
   }
 }

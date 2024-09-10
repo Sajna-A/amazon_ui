@@ -63,9 +63,30 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/image.png
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/cetaphil.png
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/dot and key_processed.jpg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/secure payment.png
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/hyalugel.png
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu1.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu2.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu3.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu4.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu5.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu6.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu7.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu8.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu9.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu10.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu11.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu12.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu13.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu14.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu15.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu16.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu17.jpeg
+    - C:/Users/TOSHIBA/Desktop/Amazon/amazon_ui/images/menu18.jpeg 
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

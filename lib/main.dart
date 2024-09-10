@@ -1,11 +1,11 @@
-import 'package:amazon_ui/screens/SAMPLE.dart';
-import 'package:amazon_ui/screens/cart.dart';
-import 'package:amazon_ui/screens/homePage.dart';
+// import 'package:amazon_ui/screens/SAMPLE.dart';
+// import 'package:amazon_ui/screens/cart.dart';
+// import 'package:amazon_ui/screens/homePage.dart';
 import 'package:amazon_ui/screens/bottomnavigation.dart';
-import 'package:amazon_ui/screens/you.dart';
+// import 'package:amazon_ui/screens/you.dart';
 import 'package:flutter/material.dart';
-import 'package:carousel_slider/carousel_slider.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+// import 'package:carousel_slider/carousel_slider.dart';
+// import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomnavigationsPage(),
+      home: const BottomnavigationsPage(),
       debugShowCheckedModeBanner: false,
     );
   }
